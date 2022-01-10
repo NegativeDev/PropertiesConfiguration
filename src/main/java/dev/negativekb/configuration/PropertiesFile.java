@@ -18,7 +18,7 @@ public class PropertiesFile {
     }
 
     public void createFile(boolean printDefaults) throws IOException {
-        File file = new File(path, name);
+        this.file = new File(path, name);
         if (file.exists())
             return;
 
