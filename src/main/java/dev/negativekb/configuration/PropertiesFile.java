@@ -12,7 +12,7 @@ public class PropertiesFile {
     private final String path;
     private final String name;
     private File file;
-    
+
     public void createFile() throws IOException {
         createFile(false);
     }
